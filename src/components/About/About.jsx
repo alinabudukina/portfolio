@@ -40,11 +40,11 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Je suis actuellement en reconversion professionnelle dans le domaine du développement web à l’école ADA Tech School. Je recherche une alternance de 12 mois en tant que développeuse full-stack (debut: septembre 2021) au rythme de 4 jours/semaine en entreprise.'}
+                    'Je recherche une alternance de 12 mois à compter du début du mois de septembre prochain en tant que développeuse full-stack au rythme de 4 jours/semaine en entreprise.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Après une belle expérience de Créative dans le marketing et les réseaux sociaux à l‘étranger, j ai renforcé mon apprentissage des technologies du Web. Ma langue maternelle est russe, mais les expériences aquises m’ont permis d’apprendre l’anglais, le français et de pouvoir travailler aisément avec les trois.v.'}
+                    'Après une belle expérience de Créative dans le marketing et les réseaux sociaux à l‘étranger, j ai renforcé mon apprentissage des technologies du Web. Ma langue maternelle est russe, mais les expériences acquises m’ont permis d’apprendre l’anglais, le français et de pouvoir travailler aisément avec les trois'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">

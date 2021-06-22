@@ -28,11 +28,20 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'node.PNG',
+    title: 'CRUD App en Vue.js et Node',
+    info: 'Projet back + front',
+    info2:
+      'Une simple API REST pour une base de données sous SQLite en utilisant Node.js et les modules Express',
+    url: 'https://github.com/adatechschool/pc--back-front-teamback-sar-cam-ali-thom-laura',
+  },
+  {
+    id: nanoid(),
     img: 'php.jpg',
     title: 'Réseau Social en PHP',
     info: 'Site web dynamique',
     info2:
-      'Un petit réseau social en PHP hébergé sur un serveur MAMP avec des requêtes vers la base de données phpMyAdmin faites en MySQL.',
+      'Un réseau social en PHP hébergé sur un serveur MAMP avec des requêtes vers la base de données phpMyAdmin faites en MySQL',
     url: 'https://github.com/alinabudukina/PC-reseau-social-ali-cam-lau-nol',
     repo: '', // if no repo, the button will not show up
   },
@@ -42,7 +51,7 @@ export const projectsData = [
     title: 'Bouclier contre la haine en ligne',
     info: 'Extension Firefox',
     info2:
-      'Projet d’extension navigateur pour Firefox qui remplace les insultes racistes, sexistes et homophobes par des fleurs. Le bouclier permet de faire progresser l égalité femmes/hommes appliquant l écriture inclusive. Vous pouvez signaler les contenus racistes, sexistes et homophobes sur la plateforme PHAROS. Option de personnaliser le pointeur de la souris',
+      'Un projet d’extension navigateur pour Firefox qui remplace les insultes racistes, sexistes et homophobes par des fleurs et personnalise le pointeur de la souris. Le bouclier permet de faire progresser l’égalité femmes/hommes en appliquant l’écriture inclusive. Vous pouvez signaler les contenus racistes, sexistes et homophobes sur la plateforme PHAROS',
     url: 'https://github.com/alinabudukina/pc-extension-mar-jul-ali-lau',
     repo: '', // if no repo, the button will not show up
   },
@@ -52,7 +61,7 @@ export const projectsData = [
     title: "Position de l'ISS en direct",
     info: 'Data visualization',
     info2:
-      "Une page Web affiche la position de la Station spatiale internationale en temps réel à l'aide de deux API, une pour les coordonnées et une pour la carte.",
+      "Une page Web affiche la position de la Station Spatiale Internationale en temps réel à l'aide de deux API, une pour les coordonnées et une autre pour la carte",
     url: 'https://github.com/alinabudukina/ISS-API',
     repo: '', // if no repo, the button will not show up
   },
@@ -72,7 +81,7 @@ export const projectsData = [
     title: 'Jeu de Pong',
     info: 'En langage Lua',
     info2:
-      "Un petit jeu de ping pong rétro en langage Lua réalisé dans l'environnement de développement PICO-8.",
+      "Un jeu de ping pong rétro en langage Lua réalisé dans l'environnement de développement PICO-8",
     url: 'https://github.com/alinabudukina/Pong-Pico8',
     repo: 'https://alina-ale.itch.io/ada-pong', // if no repo, the button will not show up
   },
