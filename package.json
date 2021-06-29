@@ -29,7 +29,6 @@
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
-    "react-animated-cursor": "^2.2.0",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
     "react-github-btn": "^1.2.0",
