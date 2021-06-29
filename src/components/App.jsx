@@ -11,8 +11,6 @@ import { PortfolioProvider } from '../context/context';
 import { heroData, aboutData, projectsData, contactData, footerData } from '../mock/data';
 
 function App() {
-  // setState() planifie la mise à jour de l’objet state du composant.
-  // Quand l’état local change, le composant répond en se rafraîchissant.
   const [hero, setHero] = useState({});
   const [about, setAbout] = useState({});
   const [projects, setProjects] = useState([]);

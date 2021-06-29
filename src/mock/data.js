@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'node.PNG',
+    img: 'node.png',
     title: 'CRUD App en Vue.js et Node',
     info: 'Projet back + front',
     info2:
