@@ -1,7 +1,7 @@
-import React from 'react';
+// import React from 'react';
 
-const Cursor = () => {
-  return <h1></h1>;
-};
+// const Cursor = () => {
+//   return <h1></h1>;
+// };
 
-export default Cursor;
+// export default Cursor;

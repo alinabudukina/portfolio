@@ -28,7 +28,7 @@ function App() {
 
   return (
     <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
-      <Cursor />
+      {/* <Cursor /> */}
       <Hero />
       <About />
       <Projects />
