@@ -37,7 +37,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'php.jpg',
+    img: 'php.png',
     title: 'Réseau Social en PHP',
     info: 'Site web dynamique',
     info2:

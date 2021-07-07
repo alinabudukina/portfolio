@@ -16,7 +16,7 @@ function App() {
   const [projects, setProjects] = useState([]);
   const [contact, setContact] = useState({});
   const [footer, setFooter] = useState({});
-  //const [cursor, setCursor] = useState({});
+  const [cursor, setCursor] = useState({});
 
   useEffect(() => {
     setHero({ ...heroData });
@@ -27,8 +27,8 @@ function App() {
   }, []);
 
   return (
-    <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
-      {/* <Cursor /> */}
+    <PortfolioProvider value={{ hero, about, projects, contact, footer, cursor }}>
+      <Cursor />
       <Hero />
       <About />
       <Projects />
